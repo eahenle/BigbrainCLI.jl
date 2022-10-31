@@ -2,3 +2,12 @@ name = "BigbrainCLI"
 uuid = "8902a50e-bf83-408e-8c61-7ea903a8f4da"
 authors = ["Adrian Henle <eahenle@gmail.com>"]
 version = "0.1.0"
+
+[deps]
+Comonicon = "863f3e99-da2a-4334-8734-de3dacbe5542"
+FIGlet = "3064a664-84fe-4d92-92c7-ed492f3d8fae"
+
+[compat]
+Comonicon = "^1.0"
+FIGlet = "^0.2"
+julia = "1.8"
