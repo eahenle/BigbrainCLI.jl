@@ -1,0 +1,8 @@
+name = "res"
+uuid = "c8f13529-6ce2-4fe0-941b-4f3dce38b883"
+authors = ["Adrian Henle <eahenle@gmail.com>"]
+version = "0.1.0"
+
+[deps]
+Comonicon = "863f3e99-da2a-4334-8734-de3dacbe5542"
+PrecompileSignatures = "91cefc8d-f054-46dc-8f8c-26e11d7c5411"

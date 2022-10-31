@@ -1,5 +1,18 @@
-using BigbrainCLI, Comonicon
+using BigbrainCLI
 
-Comonicon.Builder.install.([
-    BigbrainCLI.pluto
+function deploy(appname)
+    cd(appname)
+    run(
+        Cmd([
+            "julia"
+            "--project"
+            "deploy.jl"
+        ])
+    )
+    cd("..")
+end
+
+deploy.([
+    "pluto"
+    "res"
 ])

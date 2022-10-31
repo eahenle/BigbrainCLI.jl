@@ -1,14 +1,14 @@
 module BigbrainCLI
 
 using FIGlet
-import PrecompileSignatures
+import PrecompileSignatures: @precompile_signatures
 
 banner() = FIGlet.render("BigbrainCLI", FIGlet.availablefonts()[567])
 
-include.([
-    "pluto.jl"
-])
+function __init__()
+    banner()
+end
 
-PrecompileSignatures.@precompile_signatures BigbrainCLI
+@precompile_signatures BigbrainCLI
 
 end 

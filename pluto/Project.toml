@@ -1,0 +1,9 @@
+name = "pluto"
+uuid = "70204c8b-974c-4f98-8c06-3be52fe41eb6"
+authors = ["Adrian Henle <eahenle@gmail.com>"]
+version = "0.1.0"
+
+[deps]
+Comonicon = "863f3e99-da2a-4334-8734-de3dacbe5542"
+Pluto = "c3e4b0f8-55cb-11ea-2926-15256bba5781"
+PrecompileSignatures = "91cefc8d-f054-46dc-8f8c-26e11d7c5411"
