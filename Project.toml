@@ -1,0 +1,4 @@
+name = "BigbrainCLI"
+uuid = "8902a50e-bf83-408e-8c61-7ea903a8f4da"
+authors = ["Adrian Henle <eahenle@gmail.com>"]
+version = "0.1.0"
