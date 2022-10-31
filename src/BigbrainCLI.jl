@@ -1,20 +1,14 @@
 module BigbrainCLI
 
-using Comonicon, FIGlet
+using FIGlet
+import PrecompileSignatures
 
 banner() = FIGlet.render("BigbrainCLI", FIGlet.availablefonts()[567])
 
-@cast function pluto(;notebook="")
-end
+include.([
+    "pluto.jl"
+])
 
-@cast function resolution(command)
-end
-
-"""
-Such brain. Wow. Much Big. Very computer. Wow.
-"""
-@main
-
-export command_main
+PrecompileSignatures.@precompile_signatures BigbrainCLI
 
 end 

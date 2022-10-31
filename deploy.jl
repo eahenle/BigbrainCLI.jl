@@ -1,3 +1,5 @@
 using BigbrainCLI, Comonicon
 
-Comonicon.Builder.install(BigbrainCLI)
+Comonicon.Builder.install.([
+    BigbrainCLI.pluto
+])

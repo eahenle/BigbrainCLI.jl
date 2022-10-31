@@ -6,8 +6,12 @@ version = "0.1.0"
 [deps]
 Comonicon = "863f3e99-da2a-4334-8734-de3dacbe5542"
 FIGlet = "3064a664-84fe-4d92-92c7-ed492f3d8fae"
+Pluto = "c3e4b0f8-55cb-11ea-2926-15256bba5781"
+PrecompileSignatures = "91cefc8d-f054-46dc-8f8c-26e11d7c5411"
 
 [compat]
 Comonicon = "^1.0"
 FIGlet = "^0.2"
+Pluto = "^0.19"
+PrecompileSignatures = "^3.0"
 julia = "1.8"
