@@ -1,3 +1,5 @@
+#!/bin/env julia
+
 using BigbrainCLI
 
 function deploy(appname)
