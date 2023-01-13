@@ -1,6 +1,4 @@
-#!/bin/env julia
-
-using BigbrainCLI
+using BigbrainCLI, Comonicon
 
 function deploy(appname)
     cd(appname)
@@ -14,7 +12,6 @@ function deploy(appname)
     cd("..")
 end
 
-deploy.([
-    "pluto"
-    "res"
-])
+@main function main(apps...)
+    deploy.([apps...])
+end
