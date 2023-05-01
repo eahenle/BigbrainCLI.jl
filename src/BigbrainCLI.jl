@@ -9,7 +9,7 @@ function __init__()
     println(BANNER)
 end
 
-@main function command_main(apps)
+@main function command_main(apps...)
     ROOT_DIR = pwd()
     for appname in apps
         try
