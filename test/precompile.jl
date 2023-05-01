@@ -4,7 +4,6 @@ using Test
 
 @testset "precompile" begin
     using BigbrainCLI
-    BigbrainCLI.banner()
     @test !isnothing(BigbrainCLI)
 end
 
